@@ -3,7 +3,6 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
 
-  <!-- Hook OnLoad and OnEvent -->
   <Frame name="LevelRangeFrame" parent="UIParent" hidden="true">
     <Scripts>
       <OnLoad>
@@ -15,7 +14,6 @@
     </Scripts>
   </Frame>
 
-  <!-- Create a new tooltip for this AddOn, so the original WorldMap tip still works -->
   <GameTooltip name="LevelRangeTooltip" parent="WorldMapFrame" hidden="true"
                frameStrata="TOOLTIP" inherits="GameTooltipTemplate">
     <Scripts>
@@ -36,7 +34,6 @@
     </Scripts>
   </GameTooltip>
 
-  <!-- Configuration checkbox template -->
   <CheckButton name="LevelRangeOptionsCheckButtonTemplate"
                inherits="UICheckButtonTemplate" virtual="true">
     <Scripts>
@@ -59,12 +56,11 @@
     </Scripts>
   </CheckButton>
 
-  <!-- Configuration window -->
   <Frame name="LevelRangeOptionsFrame" toplevel="true" frameStrata="DIALOG"
          movable="true" enableMouse="true" hidden="true" parent="UIParent"
          enableKeyboard="true">
     <Size>
-      <AbsDimension x="350" y="250"/>
+      <AbsDimension x="350" y="290"/>
     </Size>
     <Anchors>
       <Anchor point="CENTER"/>
@@ -96,8 +92,7 @@
             </Anchor>
           </Anchors>
         </Texture>
-        <FontString inherits="GameFontNormal" name="LevelRangeOptionsFrameTitle"
-                    text="LevelRange Options">
+        <FontString inherits="GameFontNormal" name="LevelRangeOptionsFrameTitle">
           <Anchors>
             <Anchor point="TOP" relativeTo="LevelRangeOptionsFrameHeader">
               <Offset>
@@ -110,7 +105,6 @@
     </Layers>
     <Frames>
 
-      <!-- Option #1; row 1, column 1 -->
       <CheckButton name="$parentOpt1"
                    inherits="LevelRangeOptionsCheckButtonTemplate">
         <Anchors>
@@ -122,7 +116,6 @@
         </Anchors>
       </CheckButton>
 
-      <!-- Option #2; row 2, column 1 -->
       <CheckButton name="$parentOpt2"
                    inherits="LevelRangeOptionsCheckButtonTemplate">
         <Anchors>
@@ -134,7 +127,6 @@
         </Anchors>
       </CheckButton>
 
-      <!-- Option #3; row 3, column 1 -->
       <CheckButton name="$parentOpt3"
                    inherits="LevelRangeOptionsCheckButtonTemplate">
         <Anchors>
@@ -146,7 +138,6 @@
         </Anchors>
       </CheckButton>
 
-      <!-- Option #4; row 4, column 1 -->
       <CheckButton name="$parentOpt4"
                    inherits="LevelRangeOptionsCheckButtonTemplate">
         <Anchors>
@@ -158,7 +149,6 @@
         </Anchors>
       </CheckButton>
 
-      <!-- Option #5; row 5, column 1 -->
       <CheckButton name="$parentOpt5"
                    inherits="LevelRangeOptionsCheckButtonTemplate">
         <Anchors>
@@ -170,30 +160,66 @@
         </Anchors>
       </CheckButton>
 
-      <Button name="LevelRangeOptionsFrameClose"
-              inherits="OptionsButtonTemplate" text="Close">
+      <Slider name="$parentFontSizeSlider" inherits="OptionsSliderTemplate">
+        <Size>
+          <AbsDimension x="170" y="16"/>
+        </Size>
         <Anchors>
-          <Anchor point="BOTTOM">
+          <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="0" y="16"/>
+              <AbsDimension x="47" y="-185"/>
             </Offset>
           </Anchor>
         </Anchors>
         <Scripts>
-         <OnClick>
-            PlaySound("gsTitleOptionOK");
-            HideUIPanel(LevelRangeOptionsFrame);
-          </OnClick>
+          <OnLoad>
+            this:SetMinMaxValues(8, 24);
+            this:SetValueStep(1);
+            getglobal(this:GetName() .. "Low"):SetText("8");
+            getglobal(this:GetName() .. "High"):SetText("24");
+          </OnLoad>
+          <OnValueChanged>
+            LevelRangeOptionsFrameFontSizeSlider_OnValueChanged();
+          </OnValueChanged>
         </Scripts>
+      </Slider>
+
+      <EditBox name="$parentFontSizeEditBox" inherits="InputBoxTemplate" letters="2" autoFocus="false">
+        <Size>
+          <AbsDimension x="30" y="20"/>
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="232" y="-185"/>
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnEnterPressed>
+            LevelRangeOptionsFrameFontSizeEditBox_OnEnterPressed();
+          </OnEnterPressed>
+          <OnEscapePressed>
+            this:ClearFocus();
+          </OnEscapePressed>
+        </Scripts>
+      </EditBox>
+
+      <Button name="LevelRangeOptionsFrameCloseButton"
+              inherits="UIPanelCloseButton">
+        <Anchors>
+          <Anchor point="TOPRIGHT">
+            <Offset>
+              <AbsDimension x="-4" y="-4"/>
+            </Offset>
+          </Anchor>
+        </Anchors>
       </Button>
     </Frames>
     <Scripts>
       <OnShow>
         LevelRangeOptionsFrame_OnShow();
       </OnShow>
-      <OnHide>
-        LevelRangeOptionsFrame_OnHide();
-      </OnHide>
     </Scripts>
   </Frame>
 </Ui>
