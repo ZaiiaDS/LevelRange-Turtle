@@ -27,7 +27,7 @@ Addon Website: https://github.com/ZaiiaDS/LevelRange-Turtle/
 
 ## 2.8.0 — База данных и цветовой градиент
 
-Источники: [Turtle WoW Wiki](https://turtle-wow.fandom.com/) (основной) + [Cartographer](https://github.com/tekkub/cartographer) (переводы сверены с PFQuest).
+Источники: [Turtle WoW Wiki](https://turtle-wow.fandom.com/) (основной) + Cartographer/pfQuest-turtle.
 
 **Новый контент:**
 - Зоны: Blackrock Mountain (42–54), Moonwhisper Coast (50–56).
@@ -56,7 +56,7 @@ Addon Website: https://github.com/ZaiiaDS/LevelRange-Turtle/
 
 **Цветовой градиент:** уровни зон и подземелий окрашиваются относительно уровня игрока (логика Cartographer ZoneInfo).
 
-**Переводы (Cartographer / PFQuest):**
+**Переводы Cartographer/pfQuest-turtle:**
 
 | Английский | Было | Стало |
 |---|---|---|
@@ -145,7 +145,7 @@ Addon Website: https://github.com/ZaiiaDS/LevelRange-Turtle/
 
 ## 2.8.0 — Database & color gradient
 
-Sources: [Turtle WoW Wiki](https://turtle-wow.fandom.com/) (primary) + [Cartographer](https://github.com/tekkub/cartographer) (translations cross-checked with PFQuest).
+Sources: [Turtle WoW Wiki](https://turtle-wow.fandom.com/) (primary) + Cartographer/pfQuest-turtle.
 
 **New content:**
 - Zones: Blackrock Mountain (42–54), Moonwhisper Coast (50–56).
@@ -174,7 +174,7 @@ Sources: [Turtle WoW Wiki](https://turtle-wow.fandom.com/) (primary) + [Cartogra
 
 **Color gradient:** zone and dungeon levels are colored relative to player level (Cartographer ZoneInfo logic).
 
-**Translations (Cartographer / PFQuest):**
+**Translations Cartographer/pfQuest-turtle:**
 
 | English | Was | Now |
 |---|---|---|
