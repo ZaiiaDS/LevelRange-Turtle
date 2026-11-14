@@ -3,7 +3,6 @@
 Показывает диапазон уровней зон на карте мира (World Map) для Turtle WoW 1.18.1 (API 1.12).
 Форк аддона LevelRange-Turtle by [Spartelfant](https://github.com/Spartelfant).
 Author: Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant, Zaiia.
-Addon Website: https://github.com/ZaiiaDS/LevelRange-Turtle/
 
 ## Возможности
 
@@ -121,7 +120,6 @@ LevelRange-Turtle/
 Shows zone level ranges on the World Map for Turtle WoW 1.18.1 (API 1.12).
 Fork of LevelRange-Turtle by [Spartelfant](https://github.com/Spartelfant).
 Author: Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant, Zaiia.
-Addon Website: https://github.com/ZaiiaDS/LevelRange-Turtle/
 
 ## Features
 
