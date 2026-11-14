@@ -49,6 +49,7 @@ LEVELRANGE_WESTERNPLAGUE        = "西瘟疫之地";
 LEVELRANGE_WESTFALL             = "西部荒野";
 LEVELRANGE_WETLANDS             = "湿地";
 LEVELRANGE_WINTERSPRING         = "冬泉谷";
+LEVELRANGE_BLACKROCKMOUNTAIN    = "黑石山";
 
 LEVELRANGE_BLACKSTONEISLAND     = "黑石岛";
 LEVELRANGE_GILLIJIM             = "吉利吉姆之岛";
@@ -61,6 +62,7 @@ LEVELRANGE_THALASSIANHIGHLANDS  = "阿尔萨拉斯";
 LEVELRANGE_GRIMREACHES          = "冷酷海岸";
 LEVELRANGE_NORTHWIND            = "北风领";
 LEVELRANGE_BALOR                = "巴洛";
+LEVELRANGE_MOONWHISPERCOAST     = "月语海岸";
 
 LEVELRANGE_DARNASSUS            = "达纳苏斯";
 LEVELRANGE_IRONFORGE            = "铁炉堡";
@@ -73,18 +75,25 @@ LEVELRANGE_ALAHTHALAS           = "萨拉斯高地";
 
 LEVELRANGE_INSTANCESTEXT        = "地下城：";
 LEVELRANGE_RAIDSTEXT            = "团队副本：";
+LEVELRANGE_BATTLEGROUNDSTEXT    = "战场：";
 
 LEVELRANGE_BLACKFATHOMDEEPS     = "黑暗深渊";
 LEVELRANGE_BLACKROCKDEPTH       = "黑石深渊";
-LEVELRANGE_BLACKROCKSPIRE       = "黑石塔";
+LEVELRANGE_BLACKROCKSPIRE_LOWER = "黑石塔 - 下层";
+LEVELRANGE_BLACKROCKSPIRE_UPPER = "黑石塔 - 上层";
 LEVELRANGE_DEADMINES            = "死亡矿井";
-LEVELRANGE_DIREMAUL             = "厄运之槌";
+LEVELRANGE_DIREMAUL_EAST        = "厄运之槌 - 东";
+LEVELRANGE_DIREMAUL_WEST        = "厄运之槌 - 西";
+LEVELRANGE_DIREMAUL_NORTH       = "厄运之槌 - 北";
 LEVELRANGE_GNOMEREGAN           = "诺莫瑞根";
 LEVELRANGE_MARAUDON             = "玛拉顿";
 LEVELRANGE_RAGEFIRECHASM        = "怒焰裂谷";
 LEVELRANGE_RAZORFENDOWNS        = "Razorfen Downs";
 LEVELRANGE_RAZORFENKRAUL        = "剃刀高地";
-LEVELRANGE_SCARLETMONASTERY     = "血色修道院";
+LEVELRANGE_SCARLETMONASTERY_GRAVEYARD = "血色修道院 - 墓地";
+LEVELRANGE_SCARLETMONASTERY_LIBRARY   = "血色修道院 - 图书馆";
+LEVELRANGE_SCARLETMONASTERY_ARMORY    = "血色修道院 - 武器库";
+LEVELRANGE_SCARLETMONASTERY_CATHEDRAL = "血色修道院 - 大教堂";
 LEVELRANGE_SCHOLOMANCE          = "通灵学院";
 LEVELRANGE_SHADOWFANGKEEP       = "影牙城堡";
 LEVELRANGE_STOCKADES            = "监狱";
@@ -102,15 +111,24 @@ LEVELRANGE_KARAZHANCRYPT        = "Karazhan Crypt";
 LEVELRANGE_STORMWINDVAULT       = "Stormwind Vault";
 LEVELRANGE_STORMWROUGHTRUINS    = "Stormwrought Ruins";
 LEVELRANGE_DRAGONMAWRETREAT     = "Dragonmaw Retreat";
+LEVELRANGE_FROSTMANEHOLLOW      = "Frostmane Hollow";
+LEVELRANGE_WINDHORNCANYON       = "Windhorn Canyon";
 
 LEVELRANGE_NAXXRAMAS            = "納克薩瑪斯";
 LEVELRANGE_ONYXIASLAIR          = "奧妮克希亞的巢穴";
 LEVELRANGE_RUINSAHNQIRAJ        = "安其拉廢墟";
 LEVELRANGE_TEMPLEAHNQIRAJ       = "安其拉神廟";
 LEVELRANGE_ZULGURUB             = "祖爾格拉布";
-
+LEVELRANGE_MOLTENCORE           = "熔火之心";
+LEVELRANGE_BLACKWINGLAIR        = "黑翼之巢";
 LEVELRANGE_EMERALDSANCTUM       = "Emerald Sanctum";
 LEVELRANGE_LOWERKARAZHANHALLS   = "Lower Karazhan Halls";
+LEVELRANGE_TOWEROFKARAZHAN      = "Tower of Karazhan";
+LEVELRANGE_TIMBERMAWHOLD        = "Timbermaw Hold";
+
+LEVELRANGE_WARSONGGULCH         = "战歌峡谷";
+LEVELRANGE_ARATHIBASIN          = "阿拉希盆地";
+LEVELRANGE_ALTERACVALLEY        = "奥特兰克山谷";
 
 LEVELRANGE_LEVELS               = "等级 %d - %d";
 LEVELRANGE_FLEVEL               = "钓鱼等级 %d";

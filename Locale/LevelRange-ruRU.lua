@@ -1,6 +1,6 @@
 --
 -- LevelRange :: Translatable Strings - Russian
--- Copyright (c) 2006 Philip Hughes (Bull3t) / 2026 Zaiia
+-- Copyright (c) 2006 Philip Hughes (Bull3t)
 --
 
 if (GetLocale() == "ruRU") then
@@ -49,18 +49,20 @@ LEVELRANGE_WESTERNPLAGUE        = "Западные Чумные земли";
 LEVELRANGE_WESTFALL             = "Западный край";
 LEVELRANGE_WETLANDS             = "Болотина";
 LEVELRANGE_WINTERSPRING         = "Зимние Ключи";
+LEVELRANGE_BLACKROCKMOUNTAIN    = "Черная гора";
 
-LEVELRANGE_BLACKSTONEISLAND     = "Чернокаменный остров";
+LEVELRANGE_BLACKSTONEISLAND     = "Остров Блэкстоун";
 LEVELRANGE_GILLIJIM             = "Остров Джиллиджим";
 LEVELRANGE_GILNEAS              = "Гилнеас";
 LEVELRANGE_HYJAL                = "Хиджал";
 LEVELRANGE_LAPIDIS              = "Остров Лапидис";
-LEVELRANGE_SCARLETENCLAVE       = "Алое убежище";
+LEVELRANGE_SCARLETENCLAVE       = "Анклав Алого Ордена";
 LEVELRANGE_TELABIM              = "Тель'Абим";
 LEVELRANGE_THALASSIANHIGHLANDS  = "Талассийское нагорье";
-LEVELRANGE_GRIMREACHES          = "Мрачные пределы";
-LEVELRANGE_NORTHWIND            = "Северный Ветер";
+LEVELRANGE_GRIMREACHES          = "Мрачные просторы";
+LEVELRANGE_NORTHWIND            = "Нортвинд";
 LEVELRANGE_BALOR                = "Балор";
+LEVELRANGE_MOONWHISPERCOAST     = "Берег Лунного Шёпота";
 
 LEVELRANGE_DARNASSUS            = "Дарнас";
 LEVELRANGE_IRONFORGE            = "Стальгорн";
@@ -73,18 +75,25 @@ LEVELRANGE_ALAHTHALAS           = "Ала'Талас";
 
 LEVELRANGE_INSTANCESTEXT        = "Подземелья:";
 LEVELRANGE_RAIDSTEXT            = "Рейды:";
+LEVELRANGE_BATTLEGROUNDSTEXT    = "Поля боя:";
 
 LEVELRANGE_BLACKFATHOMDEEPS     = "Непроглядная пучина";
 LEVELRANGE_BLACKROCKDEPTH       = "Глубины Черной горы";
-LEVELRANGE_BLACKROCKSPIRE       = "Вершина Черной горы";
+LEVELRANGE_BLACKROCKSPIRE_LOWER = "Вершина Черной горы - Нижняя";
+LEVELRANGE_BLACKROCKSPIRE_UPPER = "Вершина Черной горы - Верхняя";
 LEVELRANGE_DEADMINES            = "Мертвые копи";
-LEVELRANGE_DIREMAUL             = "Забытый город";
+LEVELRANGE_DIREMAUL_EAST        = "Забытый город - Восточный";
+LEVELRANGE_DIREMAUL_WEST        = "Забытый город - Западный";
+LEVELRANGE_DIREMAUL_NORTH       = "Забытый город - Северный";
 LEVELRANGE_GNOMEREGAN           = "Гномреган";
 LEVELRANGE_MARAUDON             = "Мародон";
 LEVELRANGE_RAGEFIRECHASM        = "Огненная пропасть";
 LEVELRANGE_RAZORFENDOWNS        = "Курганы Иглошкурых";
 LEVELRANGE_RAZORFENKRAUL        = "Лабиринты Иглошкурых";
-LEVELRANGE_SCARLETMONASTERY     = "Монастырь Алого ордена";
+LEVELRANGE_SCARLETMONASTERY_GRAVEYARD = "Монастырь Алого ордена - Кладбище";
+LEVELRANGE_SCARLETMONASTERY_LIBRARY   = "Монастырь Алого ордена - Библиотека";
+LEVELRANGE_SCARLETMONASTERY_ARMORY    = "Монастырь Алого ордена - Оружейная";
+LEVELRANGE_SCARLETMONASTERY_CATHEDRAL = "Монастырь Алого ордена - Собор";
 LEVELRANGE_SCHOLOMANCE          = "Некроситет";
 LEVELRANGE_SHADOWFANGKEEP       = "Крепость Темного Клыка";
 LEVELRANGE_STOCKADES            = "Тюрьма";
@@ -95,22 +104,31 @@ LEVELRANGE_WAILINGCAVERNS       = "Пещеры Стенаний";
 LEVELRANGE_ZULFARRAK            = "Зул'Фаррак";
 
 LEVELRANGE_COTBLACKMORASS       = "Пещеры Времени: Черные топи";
-LEVELRANGE_CRESCENTGROVE        = "The Crescent Grove";
+LEVELRANGE_CRESCENTGROVE        = "Лунная Роща";
 LEVELRANGE_GILNEASCITY          = "Город Гилнеас";
-LEVELRANGE_HATEFORGEQUARRY      = "Каменоломня Ненависти";
+LEVELRANGE_HATEFORGEQUARRY      = "Карьер Тенегорна";
 LEVELRANGE_KARAZHANCRYPT        = "Склеп Каражана";
 LEVELRANGE_STORMWINDVAULT       = "Хранилище Штормграда";
-LEVELRANGE_STORMWROUGHTRUINS    = "Штормовые руины";
-LEVELRANGE_DRAGONMAWRETREAT     = "Логово Драконьей Пасти";
+LEVELRANGE_STORMWROUGHTRUINS    = "Руины Кузни Шторма";
+LEVELRANGE_DRAGONMAWRETREAT     = "Прибежище Драконьей Пасти";
+LEVELRANGE_FROSTMANEHOLLOW      = "Лощина Мерзлогривов";
+LEVELRANGE_WINDHORNCANYON       = "Каньон Ветророгов";
 
 LEVELRANGE_NAXXRAMAS            = "Наксрамас";
 LEVELRANGE_ONYXIASLAIR          = "Логово Ониксии";
 LEVELRANGE_RUINSAHNQIRAJ        = "Руины Ан'Киража";
 LEVELRANGE_TEMPLEAHNQIRAJ       = "Храм Ан'Киража";
 LEVELRANGE_ZULGURUB             = "Зул'Гуруб";
-
+LEVELRANGE_MOLTENCORE           = "Огненные Недра";
+LEVELRANGE_BLACKWINGLAIR        = "Логово Крыла Тьмы";
 LEVELRANGE_EMERALDSANCTUM       = "Изумрудное святилище";
 LEVELRANGE_LOWERKARAZHANHALLS   = "Нижние залы Каражана";
+LEVELRANGE_TOWEROFKARAZHAN      = "Башня Каражана";
+LEVELRANGE_TIMBERMAWHOLD        = "Крепость Древобрюхов";
+
+LEVELRANGE_WARSONGGULCH         = "Ущелье Песни Войны";
+LEVELRANGE_ARATHIBASIN          = "Низина Арати";
+LEVELRANGE_ALTERACVALLEY        = "Альтеракская долина";
 
 LEVELRANGE_LEVELS               = "Уровни %d - %d";
 LEVELRANGE_FLEVEL               = "Уровень рыбной ловли %d";

@@ -49,6 +49,7 @@ LEVELRANGE_WESTERNPLAGUE        = "Plaguelands Ocidentais";
 LEVELRANGE_WESTFALL             = "Westfall";
 LEVELRANGE_WETLANDS             = "Pântanos";
 LEVELRANGE_WINTERSPRING         = "Hibérnia";
+LEVELRANGE_BLACKROCKMOUNTAIN    = "Montanha Rocha Negra";
 
 LEVELRANGE_BLACKSTONEISLAND     = "Ilha Negrito";
 LEVELRANGE_GILLIJIM             = "Ilha de Gillijim";
@@ -61,6 +62,7 @@ LEVELRANGE_THALASSIANHIGHLANDS  = "Terras Altas Thalassianas";
 LEVELRANGE_GRIMREACHES          = "Recônditos Sombrios";
 LEVELRANGE_NORTHWIND            = "Vento Norte";
 LEVELRANGE_BALOR                = "Balor";
+LEVELRANGE_MOONWHISPERCOAST     = "Costa do Sussurro Lunar";
 
 LEVELRANGE_DARNASSUS            = "Darnassus";
 LEVELRANGE_IRONFORGE            = "Altaforja";
@@ -73,18 +75,25 @@ LEVELRANGE_ALAHTHALAS           = "Alah'Thalas";
 
 LEVELRANGE_INSTANCESTEXT        = "Masmorras:";
 LEVELRANGE_RAIDSTEXT            = "Raides:";
+LEVELRANGE_BATTLEGROUNDSTEXT    = "Campos de Batalha:";
 
 LEVELRANGE_BLACKFATHOMDEEPS     = "Blackfathom Deeps";
 LEVELRANGE_BLACKROCKDEPTH       = "Blackrock Depths";
-LEVELRANGE_BLACKROCKSPIRE       = "Blackrock Spire";
+LEVELRANGE_BLACKROCKSPIRE_LOWER = "Blackrock Spire - Inferior";
+LEVELRANGE_BLACKROCKSPIRE_UPPER = "Blackrock Spire - Superior";
 LEVELRANGE_DEADMINES            = "Deadmines";
-LEVELRANGE_DIREMAUL             = "Dire Maul";
+LEVELRANGE_DIREMAUL_EAST        = "Dire Maul - Leste";
+LEVELRANGE_DIREMAUL_WEST        = "Dire Maul - Oeste";
+LEVELRANGE_DIREMAUL_NORTH       = "Dire Maul - Norte";
 LEVELRANGE_GNOMEREGAN           = "Gnomeregan";
 LEVELRANGE_MARAUDON             = "Maraudon";
 LEVELRANGE_RAGEFIRECHASM        = "Ragefire Chasm";
 LEVELRANGE_RAZORFENDOWNS        = "Razorfen Downs";
 LEVELRANGE_RAZORFENKRAUL        = "Razorfen Kraul";
-LEVELRANGE_SCARLETMONASTERY     = "The Scarlet Monastery";
+LEVELRANGE_SCARLETMONASTERY_GRAVEYARD = "Mosteiro Escarlate - Cemitério";
+LEVELRANGE_SCARLETMONASTERY_LIBRARY   = "Mosteiro Escarlate - Biblioteca";
+LEVELRANGE_SCARLETMONASTERY_ARMORY    = "Mosteiro Escarlate - Arsenal";
+LEVELRANGE_SCARLETMONASTERY_CATHEDRAL = "Mosteiro Escarlate - Catedral";
 LEVELRANGE_SCHOLOMANCE          = "Scholomance";
 LEVELRANGE_SHADOWFANGKEEP       = "Shadowfang Keep";
 LEVELRANGE_STOCKADES            = "The Stockades";
@@ -102,21 +111,30 @@ LEVELRANGE_KARAZHANCRYPT        = "Karazhan Crypt";
 LEVELRANGE_STORMWINDVAULT       = "Stormwind Vault";
 LEVELRANGE_STORMWROUGHTRUINS    = "Stormwrought Ruins";
 LEVELRANGE_DRAGONMAWRETREAT     = "Dragonmaw Retreat";
+LEVELRANGE_FROSTMANEHOLLOW      = "Frostmane Hollow";
+LEVELRANGE_WINDHORNCANYON       = "Windhorn Canyon";
 
 LEVELRANGE_NAXXRAMAS            = "Naxxramas";
 LEVELRANGE_ONYXIASLAIR          = "Onyxia's Lair";
 LEVELRANGE_RUINSAHNQIRAJ        = "Ruins of Ahn'Qiraj";
 LEVELRANGE_TEMPLEAHNQIRAJ       = "Temple of Ahn'Qiraj";
 LEVELRANGE_ZULGURUB             = "Zul'Gurub";
+LEVELRANGE_MOLTENCORE           = "Núcleo Derretido";
+LEVELRANGE_BLACKWINGLAIR        = "Covil Asa Negra";
+LEVELRANGE_EMERALDSANCTUM       = "Santuário Esmeralda";
+LEVELRANGE_LOWERKARAZHANHALLS   = "Salões Inferiores de Karazhan";
+LEVELRANGE_TOWEROFKARAZHAN      = "Torre de Karazhan";
+LEVELRANGE_TIMBERMAWHOLD        = "Forte Presa de Madeira";
 
-LEVELRANGE_EMERALDSANCTUM       = "Emerald Sanctum";
-LEVELRANGE_LOWERKARAZHANHALLS   = "Lower Karazhan Halls";
+LEVELRANGE_WARSONGGULCH         = "Garganta do Canto de Guerra";
+LEVELRANGE_ARATHIBASIN          = "Bacia de Arathi";
+LEVELRANGE_ALTERACVALLEY        = "Vale de Alterac";
 
 LEVELRANGE_LEVELS               = "Níveis %d - %d";
 LEVELRANGE_FLEVEL               = "Nível de pesca %d";
 
 LEVELRANGE_LOADEDPREFIX         = "Versão do LevelRange "
-LEVELRANGE_LOADEDSUFFIX         = " cargada."
+LEVELRANGE_LOADEDSUFFIX         = " carregada."
 
 LEVELRANGE_ON                   = "ATIVADO"
 LEVELRANGE_OFF                  = "DESATIVADO"
