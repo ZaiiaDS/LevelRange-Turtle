@@ -1,12 +1,12 @@
 ## Interface: 11200
 ## Title: LevelRange [|cff3fcf26Turtle|r]
-## Version: 2.7.0
-## Author: Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant, Zaiia.
+## Version: 2.8.0
+## Author: Bull3t, Tenyar97, rado-boy, blehz, rafacc87, Diginfotek, Spartelfant.
 ## Notes: Shows the zone level range on the World Map. Now with 100% more turtles!
 ## Notes-ptBR: Mostra a faixa de níveis das zonas no Mapa Mundial. Agora com 100% mais tartarugas!
 ## Notes-zhCN: 在世界地图上显示区域等级范围。现在有 100% 更多的海龟!
 ## Notes-ruRU: Показывает диапазон уровней зон на карте мира. Теперь на 100% больше черепах!
-## URL: https://github.com/ZaiiaDS/LevelRange-Turtle
+## URL: https://github.com/Spartelfant/LevelRange-Turtle
 ## SavedVariables: LevelRangeSettings
 Locale\LevelRange-enUS.lua
 Locale\LevelRange-ptBR.lua
